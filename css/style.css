@@ -5,14 +5,12 @@
 body {
   background-color: #dadada;
   font-size: 10px;
-  display:block;
 }
 
 .preview.baku {
-  background-image: url(/images/baku.jpg);
+  background-image: url(../images/baku.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
-  float:right;
+  background-size: 100% 100%;
 }
 
 h1
@@ -23,41 +21,43 @@ h1
 }
 
 .preview.london {
-  background-image: url(/images/london.png);
+  background-image: url(../images/london.png);
   background-repeat:no-repeat;
-  background-size:100%;
-  float:left;
+  background-size:100% 100%;
 }
 
 .preview.madrid {
-  background-image: url(/images/madrid.jpg);
+  background-image: url(../images/madrid.jpg);
   background-repeat:no-repeat;
-  background-size:100%;
-  float: right;
+  background-size:100% 100%;
 }
 
 .preview.rome {
-  background-image: url(/images/rome.jpg);
+  background-image: url(../images/rome.jpg);
   background-repeat:no-repeat;
-  background-size:100%;
-  float: left;
+  background-size:100% 100%;
 }
 
 .preview {
-font-size: 1.5em;
+font-size: 2em;
 text-align:left;
 font-style:normal;
 font-weight: bold;
 font-family: sans-serif;
-width:300px;
-height: 300px;
-margin:20px auto;
+width:400px;
+height: 200px;
+margin-left: 8px;
+margin-right: 8px;
+margin-right: 8px;
+margin-bottom: 20px;
+margin-top:20px;
+display: inline-block;
 }
 
 .container >h1 {
-  font-size: 1.5em;
-  text-align: center;
+  font-size: 1em;
   font-style: normal;
+  text-align: center;
   font-family:sans-serif;
   font-variant-caps: all-small-caps;
   padding-bottom: 10px;
@@ -65,16 +65,19 @@ margin:20px auto;
 
 @media screen and (min-width: 575px){
    .preview {
-    margin:10px;
-    width: 45%;
+    width: 45.8%;
+    margin: 1%;
   }
 }
 
-
 @media screen and (min-width: 1199px){
    .preview  {
-     margin:auto;
-     display:block;
-     width: 45%;
+     margin-left:1%;
+     width: 22.8%;
+     }
+  }
+
+  .container >h1 {
+    font-size: 3em;
   }
 }
