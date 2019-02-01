@@ -5,27 +5,27 @@
 body {
   background-color: #dadada;
   font-size: 10px;
+  display:block;
 }
 
 .preview.baku {
   background-image: url(/images/baku.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  display: block;
-  float:left;
+  float:right;
 }
+
 h1
 {
   display:block;
-  margin:20px;
-  padding: 5px;
+  margin-left:20px;
+  padding-top:20px;
 }
 
 .preview.london {
   background-image: url(/images/london.png);
   background-repeat:no-repeat;
   background-size:100%;
-  display: block;
   float:left;
 }
 
@@ -33,37 +33,25 @@ h1
   background-image: url(/images/madrid.jpg);
   background-repeat:no-repeat;
   background-size:100%;
-  display: block;
-  float:left;
+  float: right;
 }
 
 .preview.rome {
   background-image: url(/images/rome.jpg);
   background-repeat:no-repeat;
   background-size:100%;
-  display: block;
-  float:left;
+  float: left;
 }
 
 .preview {
-font-size: 1.2em;
+font-size: 1.5em;
 text-align:left;
 font-style:normal;
 font-weight: bold;
 font-family: sans-serif;
 width:300px;
-height: 150px;
-Margin:5px;
-}
-
-
-.container
-
-{
-  width: 100px;
-  height: 100px;
-  display: block;
-
+height: 300px;
+margin:20px auto;
 }
 
 .container >h1 {
@@ -72,20 +60,21 @@ Margin:5px;
   font-style: normal;
   font-family:sans-serif;
   font-variant-caps: all-small-caps;
-  width: 300px;
-
+  padding-bottom: 10px;
 }
 
 @media screen and (min-width: 575px){
-   div {
-    margin: 1%;
-
+   .preview {
+    margin:10px;
+    width: 45%;
   }
 }
 
-@media screen and (min-width: 1199px){
-   div {
-    margin: 1%;
 
+@media screen and (min-width: 1199px){
+   .preview  {
+     margin:auto;
+     display:block;
+     width: 45%;
   }
 }
