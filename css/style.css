@@ -10,7 +10,7 @@ body {
 .preview.baku {
   background-image: url(../images/baku.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 90%;
 }
 
 h1
@@ -23,19 +23,19 @@ h1
 .preview.london {
   background-image: url(../images/london.png);
   background-repeat:no-repeat;
-  background-size:100% 100%;
+  background-size:90%;
 }
 
 .preview.madrid {
   background-image: url(../images/madrid.jpg);
   background-repeat:no-repeat;
-  background-size:100% 100%;
+  background-size:90%;
 }
 
 .preview.rome {
   background-image: url(../images/rome.jpg);
   background-repeat:no-repeat;
-  background-size:100% 100%;
+  background-size:90%;
 }
 
 .preview {
@@ -44,13 +44,13 @@ text-align:left;
 font-style:normal;
 font-weight: bold;
 font-family: sans-serif;
-width:400px;
-height: 200px;
-margin-left: 8px;
+width:410px;
+height: 150px;
+margin-left: 30px;
 margin-right: 8px;
 margin-right: 8px;
-margin-bottom: 20px;
-margin-top:20px;
+margin-bottom: 10px;
+margin-top:10px;
 display: inline-block;
 }
 
